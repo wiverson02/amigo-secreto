@@ -1,0 +1,9 @@
+{
+  "name": "amigo-secreto",
+  "version": "1.0.0",
+  "description": "App de sorteio de amigo secreto",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve ."
+  }
+}
