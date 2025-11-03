@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="App simples para sortear Amigo Secreto — HTML, CSS e JavaScript puro, ideal para portfólio." />
+  <meta name="author" content="Seu Nome">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Inter&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" rel="stylesheet">
+  <title>Amigo Secreto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page">
+    <header class="page__header" role="banner">
+      <h1 class="visually-hidden">Amigo Secreto</h1>
+    </header>
+
+    <main class="page__main" role="main">
+      <img class="page__image" src="./assets/imagem-presente.png" alt="Ilustração de presente" aria-hidden="true">
+
+      <section class="content" aria-labelledby="title-app">
+        <div class="content__corner-rectangle" aria-hidden="true"></div>
+        <div class="content__main">
+          <div>
+            <h2 id="title-app" class="section__title">Amigo <span>Secreto</span></h2>
+
+            <form class="form" id="form-amigo" novalidate>
+              <label class="form__label" for="nome-amigo">Digite o nome de um amigo</label>
+              <input id="nome-amigo" class="form__input" name="nome" type="text" placeholder="Nome do amigo" aria-label="Nome do amigo" required>
+
+              <div class="form__buttons">
+                <button id="btn-adicionar" type="button" class="button primary">Adicionar</button>
+                <button id="btn-sortear" type="button" class="button secondary">Sortear</button>
+                <button id="btn-reveal" type="button" class="button reveal" disabled>Revelar</button>
+                <button id="btn-reiniciar" type="button" class="form__link">Reiniciar</button>
+              </div>
+            </form>
+          </div>
+
+          <section class="section--results" aria-label="Resultados do amigo secreto">
+            <article>
+              <p class="friends__title">Amigos incluídos</p>
+              <div class="friends__container" aria-live="polite">
+                <p id="lista-amigos">—</p>
+              </div>
+            </article>
+
+            <article>
+              <p class="prizeDraw__title">Sorteio</p>
+              <div class="prizeDraw__container" aria-live="polite">
+                <div id="lista-sorteio"></div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page__footer" role="contentinfo">
+      <p class="visually-hidden">Projeto de exemplo — Amigo Secreto</p>
+    </footer>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
