@@ -1,5 +1,4 @@
 # Amigo Secreto
-# Amigo Secreto
 
 App simples para sortear amigo secreto (HTML, CSS e JavaScript).
 
