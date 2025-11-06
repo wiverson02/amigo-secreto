@@ -1,36 +1,69 @@
-# 🎁 Amigo Secreto# Amigo Secreto
+# Amigo Secreto# 🎁 Amigo Secreto# Amigo Secreto
 
 
 
-Aplicação web simples para sortear amigo secreto, desenvolvida com HTML, CSS e JavaScript puro.
-
-🔗 **[Ver projeto online](https://amigo-secreto-mu-puce-73.vercel.app/)**
+Aplicação web para sortear amigo secreto.
 
 
 
-## 📋 Sobre o Projeto```
+---Aplicação web simples para sortear amigo secreto, desenvolvida com HTML, CSS e JavaScript puro.
 
 
 
-Sistema de sorteio de amigo secreto com interface moderna e animações suaves. O algoritmo garante que ninguém tire a si mesmo no sorteio.Uso:
+## 📂 Instruções de Uso Local🔗 **[Ver projeto online](https://amigo-secreto-mu-puce-73.vercel.app/)**
 
-- Digite um nome e clique em "Adicionar".
 
-## 🚀 Como Executar- Clique em "Sortear" quando tiver pelo menos 2 nomes.
 
-- Clique em "Reiniciar" para limpar tudo.
+Para executar o projeto localmente:
 
-### Opção 1: Live Server (VS Code)
 
-1. Abra a pasta do projeto no VS CodeObservações:
 
-2. Instale a extensão **Live Server** (se ainda não tiver)- Projeto somente front-end (sem Node).
+1. Abra a pasta do projeto no **Visual Studio Code**## 📋 Sobre o Projeto```
+
+2. Instale a extensão **Live Server** (caso ainda não tenha)
 
 3. Clique com o botão direito no arquivo `index.html`
 
 4. Selecione **"Open with Live Server"**
 
-5. O projeto abrirá automaticamente em `http://localhost:5500`
+5. O projeto será aberto automaticamente no navegador em `http://localhost:5500`Sistema de sorteio de amigo secreto com interface moderna e animações suaves. O algoritmo garante que ninguém tire a si mesmo no sorteio.Uso:
+
+
+
+---- Digite um nome e clique em "Adicionar".
+
+
+
+## 🌐 Acesso Online## 🚀 Como Executar- Clique em "Sortear" quando tiver pelo menos 2 nomes.
+
+
+
+O projeto está disponível online em:- Clique em "Reiniciar" para limpar tudo.
+
+
+
+**[https://amigo-secreto-mu-puce-73.vercel.app/](https://amigo-secreto-mu-puce-73.vercel.app/)**### Opção 1: Live Server (VS Code)
+
+
+
+---1. Abra a pasta do projeto no VS CodeObservações:
+
+
+
+## 💡 Como Usar2. Instale a extensão **Live Server** (se ainda não tiver)- Projeto somente front-end (sem Node).
+
+
+
+1. Digite o nome de um participante e clique em **"Adicionar"**3. Clique com o botão direito no arquivo `index.html`
+
+2. Adicione pelo menos 2 participantes
+
+3. Clique em **"Sortear"** para realizar o sorteio4. Selecione **"Open with Live Server"**
+
+4. Clique em **"Revelar"** para mostrar os pares um a um
+
+5. Clique em **"Reiniciar"** para começar um novo sorteio5. O projeto abrirá automaticamente em `http://localhost:5500`
+
 
 
 ### Opção 2: Acessar online
